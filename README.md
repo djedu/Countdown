@@ -22,7 +22,7 @@ Add the following script to set your end time:
         
 The timer can either be displayed as a single object:
 
-  The full timer will be written to html id "clock"
+- The full timer will be written to html id "clock"
   
         <p id="clock"></p>
   
