@@ -1,5 +1,6 @@
 # Countdown
 Simple javascript countdown timer
+Created by Edward Aubrey | edward.aubrey@ejaudio.net
 
 ======================================================================================
 
