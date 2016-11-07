@@ -34,7 +34,7 @@ function countDown() {
     if (count.hours >= 0 && count.minutes >= 0 && count.seconds >= 0) {
         document.getElementById("clock").innerHTML  = count.hours + ":" + count.minutes + ":" + count.seconds;
     } else {
-        document.getElementById("clock").innerHTML  = "Done!";
+        document.getElementById("clock").innerHTML  = "00:00:00";
     }
     //If hours left >= 00 write time left else write 00!
     if (count.hours >= 0 && count.minutes >= 0 && count.seconds >= 0) {
