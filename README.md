@@ -1,21 +1,25 @@
 # Countdown
 Simple javascript countdown timer
 
+======================================================================================
+
 Instructions:
 
 Call the countdown.js in to your page
-        <blockquote>
+
         <script type="text/javascript" src="countdown.js"></script>
-        </blockquote>
-Add the following script to set your end time:
-        <blockquote>
-        <script>
-            //Time to countdown to
-            endTime = new Date(2016, 10, 7, 18, 00);
-        </script>
-        </blockquote>
         
-The clock can either be displayed as a full object:
+Add the following script to set your end time:
+
+        <script>
+            //Time to countdown to (YYYY, MM, DD, HH, MM, SS):
+            //NOTE (Month counts from 0, so enter the month -1 eg. Jan: 0, Feb: 1...)
+            endTime = new Date(2020, 10, 7, 18, 00, 00);
+        </script>
+        
+======================================================================================
+        
+The timer can either be displayed as a single object:
 
   The full timer will be written to html id "clock"
   
@@ -27,4 +31,6 @@ Or as individual objects:
   
   The Second counter will be written to html id "seconds"
   
+======================================================================================
+
 See index.html for an example.
