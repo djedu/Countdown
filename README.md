@@ -13,7 +13,7 @@ Call the countdown.js in to your page
 Add the following script to set your end time:
 
         <script>
-            //Time to countdown to (YYYY, MM, DD, HH, MM, SS):
+            //Time to countdown (YYYY, MM, DD, HH, MM, SS):
             //NOTE (Month counts from 0, so enter the month -1 eg. Jan: 0, Feb: 1...)
             endTime = new Date(2020, 10, 7, 18, 00, 00);
         </script>
