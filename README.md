@@ -16,10 +16,15 @@ Add the following script to set your end time:
         </blockquote>
         
 The clock can either be displayed as a full object:
+
   The full timer will be written to html id "clock"
+  
 Or as individual objects:
+
   The Hour counter will be written to html id "hours"
+  
   The Minute counter will be written to html id "minutes"
+  
   The Second counter will be written to html id "seconds"
   
 See index.html for an example.
