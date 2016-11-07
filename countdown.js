@@ -1,3 +1,6 @@
+//Created by Edward Aubrey
+//edward.aubrey@ejaudio.net
+//Released under GNU Public License 3.0
 var timeNow, timeLeft, endTime, count, hours, minutes, seconds, h, m, s;
 //Calculate time left
 function timeRemaining() {
