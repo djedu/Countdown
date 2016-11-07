@@ -24,13 +24,21 @@ The timer can either be displayed as a single object:
 
   The full timer will be written to html id "clock"
   
+        <p id="clock"></p>
+  
 Or as individual objects:
 
-  The Hour counter will be written to html id "hours"
+- The Hour counter will be written to html id "hours"
   
-  The Minute counter will be written to html id "minutes"
+        <p id="hours"></p>
   
-  The Second counter will be written to html id "seconds"
+- The Minute counter will be written to html id "minutes"
+  
+        <p id="minutes"></p>
+  
+- The Second counter will be written to html id "seconds"
+
+        <p id="seconds"></p>
   
 ======================================================================================
 
